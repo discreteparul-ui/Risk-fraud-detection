@@ -212,22 +212,33 @@ alarm. XGBoost is the only model that holds precision and recall together
 
 Python · pandas · scikit-learn · XGBoost · LightGBM · Jupyter · Matplotlib / Seaborn
 
-## Repository Structure
+## 📁 Repository Structure
 
-
-├── assets/                 # Plots for README (confusion matrices, correlation heatmaps)
-├── data/                   # PaySim dataset (or download instructions)
+```text
+Risk-fraud-detection/
+│
+├── assets/                         # Plots and visualizations for README
+│   ├── confusion_matrix.png
+│   └── correlation_heatmap.png
+│
+├── data/                           # Dataset / data download instructions
+│   └── README.md
+│
 ├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   └── 03_model_training.ipynb
+│   ├── 01_eda.ipynb               # Exploratory Data Analysis
+│   ├── 02_feature_engineering.ipynb # Feature Engineering
+│   └── 03_model_training.ipynb    # Model Training & Evaluation
+│
 ├── src/
-│   ├── features.py
-│   ├── train.py
-│   └── evaluate.py
-├── models/                 # Saved model artifacts
-├── requirements.txt
-└── README.md
+│   ├── features.py                 # Feature preprocessing & transformation
+│   ├── train.py                    # Model training
+│   └── evaluate.py                 # Model evaluation
+│
+├── models/                         # Saved model artifacts
+│
+├── requirements.txt                # Python dependencies
+│
+└── README.md                       # Project documentation
 
 
 ## How to Run
