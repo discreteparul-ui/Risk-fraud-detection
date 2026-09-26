@@ -43,7 +43,7 @@ rule-based control (isFlaggedFraud, which flags single transfers over
 200,000) fails to catch the vast majority of fraud, which frequently occurs at
 much smaller amounts.
 
-Dataset Link with Data Dictionary: https://drive.google.com/drive/folders/1NifXx7E2bzEPaSBTieoXOqCCFIgCFjM8?usp=sharing
+
 Dataset Link from kaggle : https://www.kaggle.com/datasets/ealaxi/paysim1/data
 
 ## Goal
