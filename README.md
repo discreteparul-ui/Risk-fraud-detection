@@ -233,7 +233,7 @@ Python · pandas · scikit-learn · XGBoost · LightGBM · Jupyter · Matplotlib
 ## How to Run
 
 bash
-git clone https://github.com/Shashank123-wq-tech/Banking-Fraud-Detection.git
+git clone https://github.com/discreteparul-ui/Risk-fraud-detection
 cd Banking-Fraud-Detection
 pip install -r requirements.txt
 jupyter notebook notebooks/01_eda.ipynb
